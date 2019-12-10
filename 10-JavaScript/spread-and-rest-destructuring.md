@@ -108,8 +108,8 @@ A few things to highlight:
 So rest parameters let us take otherwise normal arguments and put them into an array.  Sometimes however you want to do the reverse.  It can be helpful to peel off elements of an array into arguments to a method.  
 
 ```javascript
-const calculateBill = (appetizer, mainCourse, desert) => {
-  return 1.08 * (appetizer + mainCourse + desert);
+const calculateBill = (appetizer, mainCourse, dessert) => {
+  return 1.08 * (appetizer + mainCourse + dessert);
 }
 
 const prices = [3.75, 15.80, 10.0];
